@@ -1,5 +1,5 @@
 module.exports = function (app) {
-    app.get('/produtos', function(req, res){
+    app.get('/produto', function(req, res){
         res.render('produtos/produto');
     });
 }
